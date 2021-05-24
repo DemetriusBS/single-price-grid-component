@@ -21,12 +21,12 @@ function App() {
 
       <div className='twoComponents'>
         <div className='secondText'>
-          <p className='price'>
+          <p className='price1'>
             Monthly Subscription
           </p>
 
           <p className='price'>
-            $29 per month
+            <span className='value'>$29</span> <span className='perMonth'>per month</span>
           </p>
 
           <p className='price'>
